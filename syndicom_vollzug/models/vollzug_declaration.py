@@ -303,7 +303,7 @@ class SyndicomvollzugDeclaration(models.Model):
 
     def _compute_name_field(self):
         for res in self:
-            res.name = 'Deklaration für ' + res.enterprise_id.name
+            res.name = f"[D-{res.id or ''}] Deklaration für {res.enterprise_id.name}"
 
     @api.depends('stage_id')
     def _check_is_closed(self):
