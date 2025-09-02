@@ -1,6 +1,6 @@
 <odoo>
    <template id="syndicom_new_buttons_blue" name="Button Blau">
-         <div class="text-center"   style="width:100%;text-align:center;" data-snippet="syndicom_new_buttons_blue">
+         <div class="o_mail_snippet_general text-center"   style="width:100%;text-align:center;" data-snippet="syndicom_new_buttons_blue">
 
             <a href="https://syndicom.ch" target="_blank" class="btn btn-secondary">Button Blue</a>
 
@@ -25,7 +25,7 @@
 
    </template>
    <template id="syndicom_new_buttons_black" name="Button Schwarz">
-        <div class="text-center"   style="width:100%;text-align:center;"  data-snippet="syndicom_new_buttons_black">
+        <div class="o_mail_snippet_general text-center"   style="width:100%;text-align:center;"  data-snippet="syndicom_new_buttons_black">
 
             <a href="https://syndicom.ch" target="_blank" class="btn btn-danger">Button Black</a>
 
@@ -49,7 +49,7 @@
 </template>
 
 <template id="syndicom_new_buttons_yellow" name="Button Gelb">
-      <div class="text-center"   style="width:100%;text-align:center;"  data-snippet="syndicom_new_buttons_yellow">
+      <div class="o_mail_snippet_general text-center"   style="width:100%;text-align:center;"  data-snippet="syndicom_new_buttons_yellow">
 
             <a href="https://syndicom.ch" target="_blank" class="btn btn-primary">Button Yellow</a>
 
@@ -73,8 +73,8 @@
 </template>
 
 
-   <template id="syndicom_new_buttons_purple" name="Button Violett">
-      <div class="text-center"   style="width:100%;text-align:center;"  data-snippet="syndicom_new_buttons_purple">
+   <template id="syndicom_new_buttons_purple" name="Button Lila">
+      <div class="o_mail_snippet_general text-center"   style="width:100%;text-align:center;"  data-snippet="syndicom_new_buttons_purple">
 
             <a href="https://syndicom.ch" target="_blank" class="btn btn-success">Button Purple</a>
 
