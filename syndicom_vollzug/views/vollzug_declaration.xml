@@ -51,7 +51,7 @@
         <field name="name">declarationsliste.kanban</field>
         <field name="model">syndicom.vollzug.declaration</field>
         <field name="arch" type="xml">
-            <kanban default_group_by="stage_id" class="o_kanban_small_column o_kanban_project_tasks" on_create="quick_create" quick_create_view="project.quick_create_task_form" examples="project" js_class="project_task_kanban" sample="1">
+            <kanban default_group_by="stage_id" class="o_kanban_small_column" sample="1">
             <field name="name"/>
             <field name="description"/>
             <field name="is_closed"/>
@@ -108,7 +108,7 @@
         <field name="name">declarationsliste</field>
         <field name="model">syndicom.vollzug.declaration</field>
         <field name="arch" type="xml">
-            <form string="Deklaration" class="o_form_project_tasks" js_class="project_form" create="false">
+            <form string="Deklaration" create="false">
 
                 <field name="is_closed" invisible="1"/>
 
