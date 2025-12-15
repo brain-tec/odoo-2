@@ -4,7 +4,7 @@
            data-snippet="s_mail_block_header_social" data-name="Header">
          <div class="o_mail_table_styles container s_allow_columns">
             <div class="row">
-               <div class="pb0 col-lg-7 offset-lg-5" style="margin-bottom: 14px;">
+               <div class="pb0 col-lg-6 offset-lg-6" style="margin-bottom: 14px;">
                   <a href="https://syndicom.ch/" target="_blank" rel="noreferrer">
                      <img class="img-fluid o_we_custom_image o_we_image_cropped"
                           src="/syndicom_mass_mailing_themes/static/src/img/theme_imgs/syndicom_transparent_logo.png"
@@ -83,38 +83,43 @@
                            data-darkreader-inline-color="">
                         Folge uns auf Social Media:
                         <br/>
-                        <a href="https://www.facebook.com/syndicom/" target="_blank" rel="noreferrer">
+                        <a href="https://www.instagram.com/syndicom" target="_blank" rel="noreferrer">
                            <img class="img-fluid"
-                                src="/syndicom_mass_mailing_themes/static/src/img/theme_syndicom_blank/facebook_transparent.png"
-                                style="width: 53px;" loading=""/>
+                                src="/syndicom_mass_mailing_themes/static/src/img/theme_syndicom_blank/instagram_transparent.png"
+                                style="width: 36px;" loading=""/>
                         </a>
                         <a href="https://ch.linkedin.com/company/syndicom-gewerkschaft-medien-und-kommunikation" target="_blank" rel="noreferrer">
                            <img class="img-fluid"
                                 src="/syndicom_mass_mailing_themes/static/src/img/theme_syndicom_blank/linkedin_transparent.png"
-                                style="width: 53px;" loading=""/>
+                                style="width: 36px;" loading=""/>
                         </a>
-                        <a href="https://www.instagram.com/syndicom" target="_blank" rel="noreferrer">
+                        <a href="https://www.facebook.com/syndicom/" target="_blank" rel="noreferrer">
                            <img class="img-fluid"
-                                src="/syndicom_mass_mailing_themes/static/src/img/theme_syndicom_blank/instagram_transparent.png"
-                                style="width: 53px;" loading=""/>
+                                src="/syndicom_mass_mailing_themes/static/src/img/theme_syndicom_blank/facebook_transparent.png"
+                                style="width: 36px;" loading=""/>
+                        </a>
+                        <a href="https://bsky.app/profile/syndicom.bsky.social" target="_blank" rel="noreferrer">
+                           <img class="img-fluid"
+                                src="/syndicom_mass_mailing_themes/static/src/img/theme_syndicom_blank/bluesky_transparent.png"
+                                style="width: 36px;" loading=""/>
                         </a>
                      </span>
                   </p>
                   <br/>
                   <p style="text-align: center;">
                      <strong style="font-weight: bolder;">
-                        <span class="text-o-color-4" style="font-size: 12px">
+                        <span class="text-o-color-4 o_default_snippet_text" style="font-size: 12px">
                            syndicom - Gewerkschaft Medien und Kommunikation
                         </span>
                         <br/>
-                        <span class="text-o-color-4" style="font-size: 12px; font-style: normal; font-weight: 400;">
+                        <span class="text-o-color-4 o_default_snippet_text" style="font-size: 12px; font-style: normal; font-weight: 400;">
                            Monbijoustrasse, Postfach, 3001 Bern
                         </span>
                      </strong>
                   </p>
                   <p style="text-align: center;">
                      <a href="/view" target="_blank">
-                        <u class="text-o-color-4" >
+                        <u class="text-o-color-4">
                            <span style="font-size: 12px;">
                               Der Newsletter wird nicht richtig angezeigt? Hier zur Onlineversion.
                            </span>
@@ -123,18 +128,18 @@
                   </p>
                   <br/>
                   <p style="text-align: center;">
-                     <a href="https://odoo.syndicom.ch/unsubscribe_from_list" target="_blank">
+                     <a href="https://odoo.syndicom.ch/unsubscribe_from_list" target="_blank" rel="noreferrer">
                         <font style="background-color: inherit; --darkreader-inline-bgcolor: inherit;"
                               class="text-o-color-4" data-darkreader-inline-bgcolor=""
-                        ><u><span style="font-size: 12px;">Abbestellen</span></u></font>
+                        ><u><span style="font-size: 12px;" class="o_default_snippet_text">Abbestellen</span></u></font>
                      </a>
                      <font style="background-color: inherit; --darkreader-inline-bgcolor: inherit;"
                            class="text-o-color-4" data-darkreader-inline-bgcolor=""
-                     ><span style="font-size: 12px;">&amp;nbsp;|&amp;nbsp;</span></font>
+                     ><span style="font-size: 12px;" class="o_default_snippet_text">&amp;nbsp;|&amp;nbsp;</span></font>
                      <a href="https://syndicom.ch/datenschutz/" target="_blank" rel="noreferrer">
                         <font style="background-color: inherit; --darkreader-inline-bgcolor: inherit;"
                               class="text-o-color-4" data-darkreader-inline-bgcolor=""
-                        ><u><span style="font-size: 12px;">Datenschutz</span></u></font>
+                        ><u><span style="font-size: 12px;" class="o_default_snippet_text">Datenschutz</span></u></font>
                      </a>
                   </p>
                </div>
@@ -257,14 +262,17 @@
            data-name="Text">
          <div class="container s_allow_columns" style="font-family: SourceSansPro, verdana, sans-serif;">
             <p style="font-family: SourceSansPro, verdana, sans-serif; font-size: 14px;" class="o_default_snippet_text">
-                Hallo {{ object.firstname }}
+               Hallo {{ object.firstname }}
             </p>
-            <p style="font-family: SourceSansPro, verdana, sans-serif; font-size: 14px;" class="o_default_snippet_text">
-                Das ist ein Standard Text Block. Dieser ist auch in verschiedenen Spalten zu haben
+            <p style="font-family: SourceSansPro, verdana, sans-serif; font-size: 14px;">
+               Das ist ein Standard Text Block. Dieser ist auch in verschiedenen
+               S<a class="btn btn-secondary" href="" target="_blank" rel="noreferrer">palten zu haben</a>
             </p>
-            <p style="font-family: SourceSansPro, verdana, sans-serif; font-size: 14px;" class="o_default_snippet_text">
-                Den Text kann man einfach anklicken und überschreiben. Weitere Inhaltselemente findest du rechts in der
-                Bearbeitungsliste
+            <p style="font-family: SourceSansPro, verdana, sans-serif; font-size: 14px;">
+                <a href="http://test" target="_blank" rel="noreferrer">
+                   Den Text kann man einfach anklicken und überschreiben. Weitere Inhaltselemente findest du rechts in
+                   der Bearbeitungsliste
+                </a>
             </p>
          </div>
       </div>
