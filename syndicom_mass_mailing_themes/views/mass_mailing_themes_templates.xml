@@ -17,6 +17,9 @@
          <div data-name="theme_syndicom_italien" data-img="/syndicom_mass_mailing_themes/static/src/img/theme_imgs/syndicom_italien" data-images-info='{"logo": {"format": "png"}, "all": {"module": "syndicom_mass_mailing_themes"}}'  sequence="1">
             <t t-call="syndicom_mass_mailing_themes.theme_syndicom_italien"/>
          </div>
+         <div data-name="theme_syndicom_section_german" data-img="/syndicom_mass_mailing_themes/static/src/img/theme_imgs/syndicom_section_german" data-images-info='{"logo": {"format": "png"}, "all": {"module": "syndicom_mass_mailing_themes"}}'  sequence="1">
+            <t t-call="syndicom_mass_mailing_themes.theme_syndicom_section_german"/>
+         </div>
          <!--  
          <div data-name="syndicom" data-img="/syndicom_mass_mailing_themes/static/src/img/theme_imgs/syndicom_default" data-images-info='{"logo": {"format": "png"}, "all": {"module": "syndicom_mass_mailing_themes"}}'  sequence="1">
             <t t-call="syndicom_mass_mailing_themes.theme_syndicom_template_default"/>                
@@ -113,6 +116,21 @@
          </div>
       </template>
       -->
+   <!-- DEUTSCHE VERSION SECTION TITLE FOR NEWSLETTER TEMPLATES -->
+   <template id="theme_syndicom_section_title_german">
+      <div class="s_text_block px-3 o_mail_snippet_general pt16 pb8" data-snippet="syndicom_text_block" data-name="Text"
+           style="background-color: rgb(13, 126, 172) !important;">
+         <div class="container s_allow_columns" style="font-family: SourceSansPro, verdana, sans-serif;">
+            <p>
+               <strong>
+                  <span class="text-o-color-4 o_default_snippet_text" style="font-size: 18px">
+                     NEWS AUS DEINER SEKTION
+                  </span>
+               </strong>
+            </p>
+         </div>
+      </div>
+   </template>
    <!-- GENERIC SLOGAN AND TITLE FOR NEWSLETTER TEMPLATES -->
    <template id="theme_syndicom_generic_mail_slogan_title">
       <!-- Separator Block -->
@@ -153,22 +171,7 @@
    <template id="theme_syndicom_german">
       <t t-call="syndicom_mass_mailing_themes.syndicom_header_de"/>
       <t t-call="syndicom_mass_mailing_themes.theme_syndicom_generic_mail_slogan_title"/>
-      <div class="s_text_block px-3 o_mail_snippet_general pt0 pb32 bg-o-color-4"
-           data-snippet="syndicom_text_block" data-name="Text">
-         <div class="container s_allow_columns" style="font-family: SourceSansPro, verdana, sans-serif;">
-            <p style="font-family: SourceSansPro, verdana, sans-serif; font-size: 14px;" class="o_default_snippet_text">
-               Hallo {{ object.firstname }}
-            </p>
-            <p style="font-family: SourceSansPro, verdana, sans-serif; font-size: 14px;" class="o_default_snippet_text">
-               Das ist ein Standard Text Block. Dieser ist auch in verschiedenen Spalten zu haben
-            </p>
-            <p style="font-family: SourceSansPro, verdana, sans-serif; font-size: 14px;"
-               class="o_default_snippet_text">
-               Den Text kann man einfach anklicken und überschreiben. Weitere Inhaltselemente findest du rechts in der
-               Bearbeitungsliste
-            </p>
-         </div>
-      </div>
+      <t t-call="syndicom_mass_mailing_themes.syndicom_text_block"/>
       <t t-call="syndicom_mass_mailing_themes.syndicom_footer_de"/>
    </template>
    <!--FRANZÖSISCHE VERSION VORLAGE NEWSLETTER-->
@@ -348,6 +351,14 @@
             </div>
          </div>
       </div>
+   </template>
+   <!--DEUTSCHE VERSION VORLAGE SEKTIONS NEWSLETTER-->
+   <template id="theme_syndicom_section_german">
+      <t t-call="syndicom_mass_mailing_themes.syndicom_header_de"/>
+      <t t-call="syndicom_mass_mailing_themes.theme_syndicom_section_title_german"/>
+      <t t-call="syndicom_mass_mailing_themes.theme_syndicom_generic_mail_slogan_title"/>
+      <t t-call="syndicom_mass_mailing_themes.syndicom_text_block"/>
+      <t t-call="syndicom_mass_mailing_themes.syndicom_footer_de"/>
    </template>
 <!--   &lt;!&ndash;FOOTER DEUTSCHE VERSION &ndash;&gt;-->
 <!--   <template id="footer_syndicom_deutsch">-->
