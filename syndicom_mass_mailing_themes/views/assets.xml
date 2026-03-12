@@ -11,8 +11,8 @@
           .o_mail_wrapper_td h2 { color: #0D7EAC !important;   font-size:36px !important;    font-weight:500 !important; line-height:1.5 !important; box-sizing:border-box !important; margin:0px 0 14px 0 !important;}
           .o_mail_wrapper_td h3 { color: black !important;     font-size:24.5px !important;  font-weight:500 !important; line-height:1.2 !important; box-sizing:border-box !important; margin:0px 0 7px 0 !important;}
           .o_mail_wrapper_td h4 { color: black !important;     font-size:14px !important;    font-weight:bold !important;  }
-          .o_mail_wrapper_td .btn-primary  {    padding:0px !important; border-radius: 0px !important; font-size: 14px !important;  background-color: #F6E600 !important; color: black !important; border: 10px solid #F6E600 !important; font-weight: 700 !important; text-transform: uppercase !important;  letter-spacing: 0.0625rem !important;  }
-          .o_mail_wrapper_td .btn-secondary  {  padding:0px !important; border-radius: 0px !important; font-size: 14px !important;  background-color: #0D7EAC !important; color: black !important; border: 10px solid #0D7EAC !important; font-weight: 700 !important; text-transform: uppercase !important;  letter-spacing: 0.0625rem !important;  }
+          .o_mail_wrapper_td .btn-primary  {    padding:0px !important; border-radius: 0px !important; font-size: 14px !important;  background-color: #F6E600 !important; color: white !important; border: 10px solid #F6E600 !important; font-weight: 700 !important; text-transform: uppercase !important;  letter-spacing: 0.0625rem !important;  }
+          .o_mail_wrapper_td .btn-secondary  {  padding:0px !important; border-radius: 0px !important; font-size: 14px !important;  background-color: #0D7EAC !important; color: white !important; border: 10px solid #0D7EAC !important; font-weight: 700 !important; text-transform: uppercase !important;  letter-spacing: 0.0625rem !important;  }
           .o_mail_wrapper_td .btn-success  {  padding:0px !important; border-radius: 0px !important; font-size: 14px !important;  background-color: #5F4B8B !important; color: white !important; border: 10px solid #5F4B8B !important; font-weight: 700 !important; text-transform: uppercase !important;  letter-spacing: 0.0625rem !important;  }
           .o_mail_wrapper_td .btn-danger  {  padding:0px !important; border-radius: 0px !important; font-size: 14px !important;  background-color: black !important; color: white !important; border: 10px solid black !important; font-weight: 700 !important; text-transform: uppercase !important;  letter-spacing: 0.0625rem !important;  }
 
@@ -55,7 +55,7 @@
                 /* Prevent Windows 10 Mail from underlining links. Styles for underlined links should be inline. */
                 a {
                     text-decoration: none;
-                    color: #5fbeec;
+                    color: #0D7EAC;
                 }
             @media screen and (max-width: 768px) {
                 .o_mail_table_styles {
